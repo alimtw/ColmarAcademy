@@ -1,0 +1,270 @@
+/* Common Styles */
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+    
+}
+
+h1 { font-size: 30px; font-weight: bold;}
+h2 { font-size: 24px;}
+h3 { font-size: 22px;}
+h4 { font-size: 20px;}
+h4 { font-size: 18px;}
+
+.headTitle { color: #4f4f4f}
+
+
+/* Header CSS Styles */
+
+/* Base on desktop is 1992px */
+body{
+    width: 992px;
+    height:auto;
+}
+
+.logo h5 {color: #01161E}
+span { color: #9f9b9b}
+
+.topRow { 
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    height: 64px;
+    
+ }
+
+.logo {
+    display: flex;
+    align-items: center;
+         
+}
+nav {
+    display: flex;
+    align-items:center;
+    margin-left: 24px;
+       
+}
+
+nav p{ padding: 5px;}
+
+/* Section 1 - Cover css */
+
+.cover {
+    display: flex;
+    align-items: center;
+    background-color:#c4c2c2;
+    width: 992px;
+ }
+
+ aside {
+    width: 60%;
+ }
+
+aside img {
+    width: 100%;
+    padding: 32px 24px;
+    
+   
+}
+
+.coverText {
+    text-align: left;
+    padding: 1px;
+    
+}
+
+.coverText h1{
+    padding-bottom: 16px;
+}
+
+button {
+    background-color: #515151;
+    width: 60%;
+    margin: 8px;
+}
+
+/* Main page Css */
+
+.main {
+    display: flex;
+    width: 992px;
+    height: 100%;
+    border: 2px dotted darkblue;
+    
+}
+
+.mainPhoto {
+    width: 60%;
+    border: 2px dotted red;
+}
+
+.mainPhoto img{
+    
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+}
+
+
+.photo {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+}
+
+
+.photo img{
+    width: 35%;
+    height: auto;
+}
+
+.photoText {
+    width: 65%;
+    position: relative;
+}
+
+.photoText a {
+    color: #4577bc;
+}
+
+.guestLecture {
+    background-color: #e1dfdf;
+        
+}
+
+/* Section 3 - Start Learning Css */
+
+.sectStartLearning {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #e1dfdf;
+}
+
+.sectStartLearning >div h2{
+    text-align: center;
+}
+
+.startLearning {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+      
+}
+.figureImg {
+    display: block;
+    max-width: 30%;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+
+.figureImg img {
+    
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.figureImg p{
+    padding-top: 16px;
+}
+
+
+
+
+/* Section 4 - Thesis Exhibit css */
+
+.thesisExhibits {
+    width: 996px;
+}
+.thesis {
+    display: flex;
+    width: 60%;
+}
+
+.headTitle {
+    text-align: center;
+}
+
+video{
+    padding: 24px;
+    width: 100%;
+    height: auto;
+    
+}
+.videomain {
+    padding: 24px;
+}
+
+.thesis {
+    width: 100%;
+    align-content: flex-start;
+}
+
+.thesis >div p{
+    padding-top: 15px;
+}
+
+.leftThesis {
+    width: 100%;
+    flex-direction: column;
+}
+.fisma {
+    display: flex;
+    align-items: center;
+    background: #e1dfdf ;
+    
+    
+}
+
+.fisma img{
+    padding: 16px;
+    width: 30%;
+    height: auto;
+}
+
+.nowThen {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.nowThen img{
+    padding: 16px;
+    width: 30%;
+    height: auto;
+    
+    
+}
+
+/* Footer CSS */
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 16px;
+    padding-left: 24px;
+    
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .mainPhoto {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    header {
+
+        img: img src="/images/information-main.jpg" alt="Information Main" ;
+
+        
+    }
+}
